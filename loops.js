@@ -30,4 +30,4 @@ function doWhileLoop(num) {
   }
 do{
   console.log("")
-}while()
+} while (incrementVariable() < 5);
