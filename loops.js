@@ -22,8 +22,11 @@ function maybeTrue() {
 }
 
 function doWhileLoop(num) {
- do {
-  num = num.slice(1)
-} while (num.length > num && maybeTrue())
- return num
+  let i = 0;
+
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+
 }
